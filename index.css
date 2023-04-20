@@ -1,0 +1,121 @@
+body {
+  background-color: hsl(225, 100%, 94%);
+  color: hsl(224, 23%, 55%);
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.container {
+  min-height: 100vh;
+  padding-right: 16px;
+  padding-left: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  border-radius: 20px;
+  background-color: white;
+  flex-direction: column;
+}
+.mainImage {
+  border-radius: 1rem 1rem 0rem 0rem;
+  width: 100%;
+}
+.cardContent {
+  padding: 16px;
+}
+.orderSum {
+  color: hsl(223, 47%, 23%);
+}
+.annual {
+  flex-direction: row;
+}
+.annualBorder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  width: 300px;
+  height: 80px;
+  box-sizing: border-box;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.orderSum {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.text {
+  padding-bottom: 20px;
+}
+.btn {
+  width: 300px;
+  height: 50px;
+  color: rgb(255, 243, 243);
+  background-color: hsl(245, 75%, 52%);
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cancel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  color: hsl(240, 1%, 48%);
+}
+.annuall {
+  color: hsl(223, 47%, 23%);
+}
+.change {
+  color: hsl(223, 94%, 27%);
+  text-decoration: underline;
+}
+.change:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: hsl(223, 93%, 48%);
+  cursor: pointer;
+}
+.cancel:hover {
+  cursor: pointer;
+  color: black;
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    background-image: url("/images/pattern-background-desktop.svg");
+  }
+  .card {
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    border-radius: 20px;
+    background-color: white;
+    flex-direction: column;
+    width: 22%;
+  }
+  .cardContent {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
